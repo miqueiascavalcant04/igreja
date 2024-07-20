@@ -1,0 +1,146 @@
+/* Estilo básico para o corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Fundo branco */
+    color: #333333; /* Cor do texto padrão */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    background-image: url('images/cabeçalho2.jpg'); /* Caminho para sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    color: #ffffff; /* Texto branco */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para o cabeçalho do about*/
+.header_about {
+    background-image: url('images/cabeçalho2.jpg'); /* Caminho para sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    color: #ffffff; /* Texto branco */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para o cabeçalho da galeria*/
+.header_galeria {
+    background-image: url('images/cabeçalho2.jpg'); /* Caminho para sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    color: #ffffff; /* Texto branco */
+    padding: -10px;
+    text-align: center;
+}
+
+
+/* Estilo para o menu de navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000; /* Preto */
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff; /* Texto branco */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ff6666; /* Vermelho claro ao passar o mouse */
+}
+
+/* Estilo para os ícones sociais */
+.social-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.social-icons a {
+    color: #ffffff; /* Cor branca para os ícones */
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffcc00; /* Cor amarela ao passar o mouse */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #ffffff; /* Branco */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #cc0000; /* Vermelho escuro */
+    color: #ffffff; /* Texto branco */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para imagens */
+.img-estilo, .img-tamanho-fixo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Imagem alinhada à esquerda */
+img-left {
+    float: left;
+    margin: 10px; /* Espaçamento ao redor da imagem */
+}
+
+/* Estilo para os eventos */
+.events {
+    text-align: center;
+}
+
+.events h2 {
+    color: #cc0000; /* Vermelho escuro */
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.event-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.event-item img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
